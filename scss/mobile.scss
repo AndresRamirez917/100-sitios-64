@@ -11,11 +11,19 @@
             display: block;
         }
         ul {
+            font-size: small;
             display: block;
             text-align: center;
             margin: 0 auto;
             li {
                 display: inline;
+            }
+        }
+    }
+    #showcase {
+        .showcase-content {
+            a {
+                width: max-content;
             }
         }
     }
@@ -41,3 +49,4 @@
         display: block;
     }
 }
+

@@ -8,12 +8,17 @@
   display: block;
 }
 #mainheader .navbar ul {
+  font-size: small;
   display: block;
   text-align: center;
   margin: 0 auto;
 }
 #mainheader .navbar ul li {
   display: inline;
+}
+#mainheader #showcase .showcase-content a {
+  width: -moz-max-content;
+  width: max-content;
 }
 
 #projects .project-row {
