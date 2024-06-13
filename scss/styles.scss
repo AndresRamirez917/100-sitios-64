@@ -16,7 +16,7 @@ html, body {
 .container {
     max-width: 1300px;
     padding: 30px 0;
-    overflow: auto;
+    // overflow: auto;
     margin: 0 auto;
 }
 
@@ -86,8 +86,14 @@ form {
         display: inline-block;
         width: 100%;
         background: #000;
-        
+        margin-bottom: 2rem;
     }
+}
+
+//iconos font awesome
+::placeholder {
+    font-family: "Font Awesome 5 Free"; font-weight: 600; content: "\f007";
+    text-align: right;
 }
 
 //mainheader
@@ -96,8 +102,7 @@ form {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-
+padding-bottom: 100px;
         .navbar {
             .logo {
                 font-size: 2rem;
@@ -144,13 +149,17 @@ form {
 //projects
 #projects {
     .projects-content {
+        text-align: left;
         p {
             margin-bottom: 1rem;
         }
     }
     .project-row {
-        text-align: left;
+        text-align: center;
         img {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
             border-radius: 10px;
         }
         h3 {

@@ -1,1 +1,29 @@
-/*# sourceMappingURL=mobile.css.map */
+#mainheader .navbar .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#mainheader .navbar .container {
+  display: block;
+}
+#mainheader .navbar ul {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+#mainheader .navbar ul li {
+  display: inline;
+}
+
+#projects .project-row {
+  display: block;
+}
+
+#benefits .benefits-row {
+  display: block;
+}
+
+#contact .contact-row {
+  display: block;
+}/*# sourceMappingURL=mobile.css.map */

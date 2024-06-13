@@ -1,0 +1,43 @@
+//mainheader
+#mainheader {
+    .navbar {
+        .logo {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .container {
+            display: block;
+        }
+        ul {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            li {
+                display: inline;
+            }
+        }
+    }
+}
+
+//projects
+#projects {
+    .project-row {
+        display: block;
+    }
+}
+
+//benefits
+#benefits {
+    .benefits-row {
+        display: block;
+    }
+}
+
+//contact
+#contact {
+    .contact-row {
+        display: block;
+    }
+}
